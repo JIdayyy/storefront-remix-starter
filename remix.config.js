@@ -10,7 +10,7 @@ const cloudflarePagesConfig = {
  * @type {import('@remix-run/dev/config').AppConfig}
  */
 const netlifyConfig = {
-    serverBuildTarget: 'netlify',
+    serverBuildTarget: 'vercel',
     server: './server-netlify.js',
     ignoredRouteFiles: ['**/.*'],
 };
